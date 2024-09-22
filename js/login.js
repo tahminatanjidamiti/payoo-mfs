@@ -3,7 +3,7 @@
 // document.getElementById('id').addEventListener('click', function(){})
 //step-1: set event handler
 document.getElementById('button-login')
-.addEventListener('click', function(event){
+ .addEventListener('click', function(event){
     //step-2: prevent default behavior(prevent reloading browser)
     event.preventDefault(); //<-- Vejal to beginners
     
@@ -23,4 +23,4 @@ document.getElementById('button-login')
     else{
         alert('Wrong phone number or pin')
     }
-})
+});
